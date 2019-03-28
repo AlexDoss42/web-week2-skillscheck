@@ -1,0 +1,117 @@
+/* Reset code */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+}
+
+/* header */
+
+header {
+  background: grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3vw;
+  color: white;
+  font-weight: 300;
+  height: 5vh;
+}
+
+.comp {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  font-size: 1.5rem;
+}
+
+.usernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  font-size: .5rem;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background: black;
+  color: yellow;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28vh;
+}
+
+/* Hero */
+
+.hero {
+  width: 95vw;
+  height: 32.5vh;
+  margin: 2.5vh 2.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.greens {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  margin-bottom: 2.5vh;
+}
+
+.green {
+background: seagreen;
+width: 25vw;
+height: inherit;
+border-radius: 2vh;
+}
+
+.oranges {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.orange {
+  background: orange;
+  width: 45vw;
+  height: inherit;
+}
+
+/* Blog Posts */
+
+.blogPosts {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 15vh;
+  margin: 2.5vh 2.5vw;
+}
+
+.blogPosts p {
+  width: 40vw;
+  font-size: 10px;
+}
+
+.blogPosts img {
+ width: 20vw;
+ margin: 0 10vw;
+}
+
+/* Footer */
+
+footer {
+  background: purple;
+  height: 12vh;
+}
